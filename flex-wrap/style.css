@@ -1,8 +1,13 @@
+body{
+    background-color: rgb(155, 153, 153);
+}
+
 .flex-container{
     display: flex;
     height: 150px;
     border: 2px solid black;
     max-width: 300px;
+    border-radius: 10px;
 }
 
 .item{
@@ -12,6 +17,7 @@
     width: 100px;
     min-width: 100px;
     line-height: 50px;
+    border-radius: 10px;
 }
 
 .nowrap{
